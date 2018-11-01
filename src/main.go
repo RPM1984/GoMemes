@@ -16,7 +16,7 @@ func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         // Get meme list
         memeList := getList()
-        fmt.Fprintf(w, memeList)
+        fmt.Fprintf(w, string(memeList.Memes[0].Name))
     })
 
     http.ListenAndServe(":" + PORT, nil)
