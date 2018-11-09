@@ -17,6 +17,7 @@ type MemeList struct {
 type Meme struct {
     Id      string  `json:"id"`
     Name    string  `json:"name"`
+    URL     string  `json:"url"`
 }
 
 func getMemes(body []byte) (MemeList, error) {
