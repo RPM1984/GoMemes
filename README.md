@@ -1,4 +1,6 @@
 # GoMemes
+[![Build Status](https://dev.azure.com/rpmir1/GoMemes/_apis/build/status/RPM1984.GoMemes)](https://dev.azure.com/rpmir1/GoMemes/_build/latest?definitionId=1)
+
 # What is this?
 A simple Go web app that generates random memes, using the [imflip](https://api.imgflip.com/) API.
 
