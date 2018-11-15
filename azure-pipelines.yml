@@ -2,7 +2,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 variables:
-  imageName: 'rpm1984/gomemes:$(build.buildId)'
+  imageName: 'gomemes:$(build.buildId)'
 
 steps:
 - script: |
