@@ -2,7 +2,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 variables:
-  imageName: '$(dockerId)/gomemes:$(build.buildId)'
+  imageName: '$(dockerId)/gomemes:latest'
 
 steps:
 - script: |
