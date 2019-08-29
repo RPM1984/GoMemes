@@ -1,5 +1,5 @@
 # GoMemes
-[![Build Status](https://dev.azure.com/rpmir1/GoMemes/_apis/build/status/RPM1984.GoMemes)](https://dev.azure.com/rpmir1/GoMemes/_build/latest?definitionId=1)
+[![Build Status](https://dev.azure.com/rpmir1/GoMemes/_apis/build/status/RPM1984.GoMemes?branchName=master)](https://dev.azure.com/rpmir1/GoMemes/_build/latest?definitionId=1&branchName=master)
 
 # What is this?
 A simple Go web app that generates random memes, using the [imflip](https://api.imgflip.com/) API.
@@ -12,3 +12,6 @@ or pull from [DockerHub](https://hub.docker.com/r/rpm1984/gomemes/):
 
 # Running
 > docker run -p 3030:3001 -it rpm1984/gomemes
+
+# Try it out
+http://gomemes.azurewebsites.net
